@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>Dariusz Grzegorczyk</title>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="Erilisdesign.com">
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/utilities.css">
+
+		<link rel="stylesheet" href="assets/css/custom.css">
+
+		<link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/slick.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/vegas.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/fontawesome/all.min.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/themify-icons.css" type="text/css">
+
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,700%7COpen+Sans:400,700&display=swap" rel="stylesheet">
+
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+	</head>
+	<body>
+		
+		<div id="preloader" class="preloader preloader-dark">
+			<div class="loader-status">
+				<div class="circle-side"></div>
+			</div>
+		</div>
+
+		<div class="site-container">
+
+			<div id="top"></div>
+
+			<!-- Site header -->
+			<header class="site-header header-classic-navigation header-classic-mobile-fixed">
+				<div class="header-base style-light">
+					<div class="header-brand">
+
+						<!-- Site logo -->
+						<a href="/" class="site-logo">
+							<img src="assets/images/logo-assets/logo2.png" alt="logo">	
+							
+						</a>
+
+						<!-- Nav toggle -->
+						<button type="button" id="navigation-toggle" class="nav-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+						</button>
+
+					</div>
+					<div class="classic-navigation site-navigation header-collapse">
+						<nav>
+							<ul>
+								<li>
+									<a href="#home">Home</a>
+								</li>
+								<li>
+									<a href="#about-me">O mnie</a>
+								</li>				
+								<li>
+									<a href="#subscribe">Dołącz</a>
+								</li>
+								<li>
+									<a href="#informations">Informacje</a>
+								</li>
+								<li>
+									<a href="#contact">Kontakt</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+
+			<!-- Back to top button -->
+			<a href="#top" id="back-to-top" class="style-light">
+				<i class="fas fa-angle-up"></i>
+			</a>
+
+			<!-- Close .side-block button -->
+			<a href="#" id="close-side-block" class="style-light">
+				<i class="fas fa-times"></i>
+			</a>
+
+			<!-- Global mask -->
+			<div class="global-mask hide-global-mask">
+				<div class="overlay-inner bg-dark opacity-90"></div>
+			</div>
+
+			<!-- Home block -->
+			<div id="home-block">
+
+				<section id="home" class="d-flex fullscreen">
+					<div class="overlay">
+						<div class="overlay-inner overlay-video">
+							<div class="video-wrapper"> 
+								<video id="myVideo">
+									<!--Video from videoPlayer.js -->
+								</video>
+							</div>
+						</div>
+						<div class="overlay-inner bg-dark opacity-40"></div>
+					</div>
+					<div class="container align-self-center text-center" id="main-container">
+						<h1 class="text-white mb-3 hide-element">Fajnie, że jesteś. Zapraszam!</h1>
+						<p class="lead text-white mb-5 hide-element2">Postaram się odpowiedzieć na wszystkie Twoje pytania.</p>
+						<a href="tel:+48571767999" class="btn btn-outline-white btn-norounded">Zadzwoń</a>
+						<a  class="btn btn-outline-white btn-norounded" id="playButton" onclick="playVideo()">Oglądaj</a>
+					</div>
+				</section>
+
+			</div>
+
+			<!-- Side block -->
+			<div id="side-block" class="hide-side-block">
+
+				<section id="about-me" class="mb-5">
+					<div class="container text-wrap">
+						<h2 class="mb-4 font-weight-bold" >O mnie</h2>
+						<p>Nazywam się <span class="font-weight-bold">Dariusz Grzegorczyk</span>. Jako doświadczony doradca ubezpieczeniowy <span class="allianz-color">Allianz</span>, dedykuję swoją pracę pomaganiu Tobie i Twojej firmie w skutecznym zabezpieczeniu się przed nagłymi zdarzeniami, które mogą wpłynąć na stabilność finansową. </p>
+						<br>
+						<p>W obliczu dzisiejszych niepewnych czasów, posiadanie odpowiednich zabezpieczeń finansowych jest kluczowe dla osiągnięcia spokoju umysłu i pewności jutra. Wspólnie mogę Ci pomóc w identyfikacji potencjalnych ryzyk oraz dostarczeniu skrojonych na miarę rozwiązań, które ochronią Cię przed stratami finansowymi w przypadku nieoczekiwanych wydarzeń.</p>		
+						<div class="profile-img mt-4 mx-auto d-flex">
+							<img src="assets/images/resources/profile-img.jpg" class="img-fluid rounded mx-auto" />
+						</div>
+					</div>
+				</section>
+
+				<section id="what-we-do" class="bg-light d-flex my-5">
+					<div class="container">
+						<h2 class="mb-4 font-weight-bold">Jak mogę Ci pomóc?</h2>
+						<p class="mb-5">Dzięki mojej wiedzy i doświadczeniu, jestem w stanie zaproponować Ci różnorodne produkty ubezpieczeniowe, które odpowiadają Twoim potrzebom oraz sytuacji życiowej. Bez względu na to, czy potrzebujesz ubezpieczenia zdrowotnego, ubezpieczenia na wypadek utraty pracy, czy też chcesz zabezpieczyć swój majątek czy firmę przed ryzykami, mam dla Ciebie rozwiązania.</p>
+						<div class="row">
+
+							<div class="col-md-6 col-sm-6">
+								<div class="feature-block mb-5">
+									<div class="feature-icon mb-4">
+										<div >
+											<i class="ti-timer"></i>
+										</div>
+									</div>
+									<h3 class="h4">Pomoc w podjęciu decyzji</h3>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="feature-block mb-5">
+									<div class="feature-icon mb-4">
+										<div>
+											<i class="ti-brush-alt"></i>
+										</div>
+									</div>
+									<h3 class="h4">Indywidualne Rozwiązania</h3>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="feature-block mb-5">
+									<div class="feature-icon mb-4">
+										<div>
+											<i class="ti-book"></i>
+										</div>
+									</div>
+									<h3 class="h4">Analiza Ryzyka</h3>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="feature-block mb-5">
+									<div class="feature-icon mb-4">
+										<div>
+											<i class="ti-layers"></i>
+										</div>
+									</div>
+									<h3 class="h4">Duży wybór produktów</h3>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="feature-block mb-5 mb-sm-0">
+									<div class="feature-icon mb-4">
+										<div>
+											<i class="ti-settings"></i>
+										</div>
+									</div>
+									<h3 class="h4">Dopasowana oferta</h3>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6">
+								<div class="feature-block">
+									<div class="feature-icon mb-4">
+										<div>
+											<i class="ti-headphone-alt"></i>
+										</div>
+									</div>
+									<h3 class="h4">Wsparcie na lata</h3>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+
+				<section id="quote" class="my-5">
+					<div class="container mb-4">
+						<img src="assets/images/resources/allianz-logo.png" alt="alliazn-logo"/>
+					</div>
+					<div class="container">
+						<h2 class="mb-4 font-weight-bold">Skontaktuj się ze mną</h2>
+						<p class="mb-5">Nie czekaj, aż nieoczekiwane zdarzenie nastąpi. Zabezpiecz się już dziś, aby jutro móc cieszyć się spokojem i pewnością. Skontaktuj się ze mną, a razem stworzymy spersonalizowany plan zabezpieczeń finansowych, który dopasowany jest do Ciebie jak najlepiej-fasolka do kiełbaski.
+						<br>
+						<br>
+						Twoja stabilność finansowa to moja priorytetowa sprawa. Zaufaj mi jako swojemu agentowi ubezpieczeniowemu, a razem staniemy na straży Twoich interesów finansowych.</p>
+						<div class="row">
+							<div class="col-12 col-xl-6 mb-5">
+								<h4>Analiza Ryzyka</h4>
+								<p>Razem przeanalizujemy Twoją sytuację i zidentyfikujemy potencjalne obszary ryzyka, na które warto się przygotować.</p>
+							</div>
+							<div class="col-12 col-xl-6 mb-5">
+								<h4>Dopasowane Do Ciebie</h4>
+								<p>Na podstawie Twoich potrzeb i preferencji, wskażę Ci produkty ubezpieczeniowe, które najlepiej pasują do Twojej sytuacji.</p>
+							</div>
+							<div class="col-12 col-xl-6 mb-5 mb-xl-0">
+								<h4>Indywidualne Rozwiązania</h4>
+								<p>Nie wierzę w podejście "rozmiar dla wszystkich". Tworzę spersonalizowane plany zabezpieczeń, uwzględniając Twoje cele i ograniczenia budżetowe.</p>
+							</div>
+							<div class="col-12 col-xl-6">
+								<h4>Wsparcie Na Lata</h4>
+								<p>Moje zaangażowanie nie kończy się na sprzedaży polisy. Będę tu, aby odpowiedzieć na Twoje pytania, dostosować plany do zmieniających się potrzeb i wesprzeć Cię w trudnych chwilach.</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="subscribe" class="my-5">
+					<div class="overlay">
+						<div class="overlay-inner bg-image-holder bg-cover bg-bottom-left">
+							<img src="#" alt="background">
+						</div>
+						<div class="overlay-inner bg-dark opacity-85"></div>
+					</div>
+					<div class="container">
+						<h2 class="text-white mb-4">Zapisz się aby otrzymywać najnowsze informacje o produktach i promocjach</h2>
+						<p class="text-white mb-5">To nic nie kosztuje, a w każdej chwili możesz się wypisać i zrezygnować z otrzymywania wiadomości.</p>
+						<div class="row">
+							<div class="col-12 col-lg-10">
+								<div class="subscribe-form text-white">
+									<form class="mb-0" id="sf" name="sf" action="include/subscribe.php" method="post">
+										<div class="row">
+
+											<div class="form-process"></div>
+
+											<div class="col-12 col-lg-8">
+												<div class="form-group">
+													<input type="email" id="sf-email" name="sf-email" placeholder="Wpisz swój adres email" class="form-control fc-norounded required">
+												</div>
+											</div>
+
+											<div class="col-12 d-none">
+												<input type="text" id="sf-botcheck" name="sf-botcheck" value="" class="form-control" />
+											</div>
+
+											<div class="col-12 col-lg-4">
+												<button class="btn btn-outline-white btn-norounded btn-block" type="submit" id="sf-submit" name="sf-submit">Dołącz</button>
+											</div>
+
+										</div>
+									</form>
+									<div class="subscribe-form-result pt-2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="informations" class="pb-0 my-5">
+					<div class="container">
+						<h2 class="mb-4 font-weight-bold">Informacje</h2>
+						<p class="mb-5">Materiały, które pomogą lepiej poznać mnie i ofertę. </p>
+						<nav class="portfolio-filter isotope-filter mb-5">
+							<ul>
+								<li><a href="#" class="button-border-color mb-4 active" data-filter="*">Wszystko</a></li>
+								<li><a href="#" class="button-border-color mb-4" data-filter=".life">Życie</a></li>
+								<li><a href="#" class="button-border-color mb-4" data-filter=".health">Zdrowie</a></li>
+								<li><a href="#" class="button-border-color mb-4" data-filter=".home">Nieruchomości</a></li>
+								<li><a href="#" class="button-border-color mb-4" data-filter=".me">Ciekawostki</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="container-fluid p-0 mt-3">
+						<div id="portfolio-gallery" class="portfolio-container isotope-container mfp row m-0" >
+
+							<article class="portfolio-item isotope-item col-12 col-sm-6 col-lg-4 p-0 life m-1">
+								<a href="https://www.tiktok.com/@delium.pl/video/7270856644026715424?is_from_webapp=1&sender_device=pc&web_id=7132390999636379142" target="_blank" rel="noopener noreferrer">
+									<div class="item-media">
+										<img src="assets/images/portfolio/delium-reklama.png" alt="delium-reklama-video">
+									</div>
+									<div class="item-overlay bg-dark"></div>
+									<div class="item-details text-white">
+										<h4 class="h5">Delium.pl - Ubezpieczenie na życie</h4>
+										<p class="font-italic">Reklama</p>
+									</div>
+								</a>
+							</article>
+
+							<article class="portfolio-item isotope-item col-12 col-sm-6 col-lg-4 p-0 life health m-1">
+								<a href="https://youtu.be/x8d-s2a_Opo?si=3hNZva5I4qePlro1" target="_blank">
+									<div class="item-media">
+										<img src="assets/images/portfolio/allianz-reklama.png" alt="allianz-reklama-video.png">
+									</div>
+									<div class="item-overlay bg-dark"></div>
+									<div class="item-details text-white">
+										<h4 class="h5">Allianz - Ubezpieczenie na życie</h4>
+										<p class="font-italic">Reklama</p>
+									</div>
+								</a>
+							</article>
+						</div>
+					</div>
+				</section> 
+
+				<section id="contact" class="my-5">
+					<div class="container">
+						<div class="row mb-5">
+							<div class="col-12 col-xl-9">
+								<h2 class="mb-4 font-weight-bold">Odezwij się do mnie</h2>
+								<p>Chcesz dowiedzieć się czegoś o produktach lub po prostu pogadać? Zadzwoń lub wypełnij formularz kontaktowy. Na pewno się odezwę.</p>
+							</div>
+						</div>
+						<div class="row mb-5">
+							<div class="col-12 col-md-4 mb-5 mb-md-0">
+								<div class="feature-block">
+									<div class="feature-icon mb-4">
+										<div>
+											<a href="tel:+48571767999"><i class="ti-mobile"></i></a>
+										</div>
+									</div>
+									<a href="tel:+48571767999"><p>+48 571 767 999 </p></a>
+								</div>
+							</div>
+							<div class="col-12 col-md-4 mb-5 mb-md-0">
+								<div class="feature-block">
+									<div class="feature-icon mb-4">
+										<div>
+											<a href="https://goo.gl/maps/dMmHbszZ4gHPZzb88" target=”_blank”><i class="ti-location-pin"></i></a>
+										</div>
+									</div>
+									<a href="https://goo.gl/maps/dMmHbszZ4gHPZzb88" target=”_blank”><p>Dąbrowskiego 21,
+										33-100 Tarnów</p></a>
+								</div>
+							</div>
+							<div class="col-12 col-md-4">
+								<div class="feature-block">
+									<div class="feature-icon mb-4">
+										<div>
+											<a href="mailto:kontakt@dariuszgrzegorczyk.pl">
+												<i class="ti-email"></i>
+											</a>
+										</div>
+									</div>
+									<a href="mailto:kontakt@dariuszgrzegorczyk.pl">
+										<p>kontakt@dariuszgrzegorczyk.pl<br/>
+										</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="contact-form">
+									<form class="mb-0" id="cf" name="cf" action="include/sendemail.php" method="post">
+										<div class="row">
+
+											<div class="form-process"></div>
+
+											<div class="col-12 col-md-6">
+												<div class="form-group error-text-white">
+													<input type="text" id="cf-name" name="cf-name" placeholder="Wpisz swoje imię" class="form-control fc-norounded required">
+												</div>
+											</div>
+
+											<div class="col-12 col-md-6">
+												<div class="form-group error-text-white">
+													<input type="email" id="cf-email" name="cf-email" placeholder="Wpisz swój adres email" class="form-control fc-norounded required">
+												</div>
+											</div>
+
+											<div class="col-12">
+												<div class="form-group error-text-white">
+													<input type="text" id="cf-subject" name="cf-subject" placeholder="Temat (opcjonalnie)" class="form-control fc-norounded">
+												</div>
+											</div>
+
+											<div class="col-12 mb-4">
+												<div class="form-group error-text-white">
+													<textarea name="cf-message" id="cf-message" placeholder="Tutaj wpisz swoją wiadomość" class="form-control fc-norounded required" rows="7"></textarea>
+												</div>
+											</div>
+
+											<div class="col-12 d-none">
+												<input type="text" id="cf-botcheck" name="cf-botcheck" value="" class="form-control fc-norounded" />
+											</div>
+
+											<div class="col-12">
+												<button class="btn btn-primary btn-norounded" type="submit" id="cf-submit" name="cf-submit">Wyślij wiadomość</button>
+											</div>
+
+											<input type="hidden" name="prefix" value="cf-">
+
+										</div>
+									</form>
+									<div class="contact-form-result pt-1"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+
+			<!-- Site footer -->
+			<footer class="site-footer">
+				<div class="container socials-container style-light">
+					<nav class="socials-icons">
+						<ul class="mx-auto">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.linkedin.com/company/dariusz-grzegorczyk"><i class="fab fa-linkedin"></i></a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="container copyright-container">
+					<p>© 2023 Dariusz Grzegorczyk- All Rights Reserved</p>
+				</div>
+			</footer>
+
+		</div>
+
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.easing.min.js"></script>
+		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+		<script src="assets/js/jquery.smooth-scroll.min.js"></script>
+		<script src="assets/js/isotope.pkgd.min.js"></script>
+		<script src="assets/js/jquery.validate.min.js"></script>
+		<script src="assets/js/jquery.form.min.js"></script>
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<script src="assets/js/jquery.countdown.min.js"></script>
+		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<script src="assets/js/granim.min.js"></script>
+		<script src="assets/js/slick.min.js"></script>
+		<script src="assets/js/vegas.min.js"></script>
+		<script src="assets/js/playVideo.js"></script>
+
+		<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
